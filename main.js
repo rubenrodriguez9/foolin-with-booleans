@@ -1,9 +1,41 @@
 /********************
  * YOUR CODE BELOW! *
  ********************/
+let iGetTheJoke = false;
+let havingFun = true;
+let learning = true;
+let killingIt = havingFun && learning;
 
+function returnFalse(alwaysFalse){
+  return false;
+}
 
+function isOpposite(opposite){
+  return !opposite;
+}
 
+function both(t, f){
+  return t && f;
+}
+ function either(e, o){
+  return e || o;
+ }
+
+ function firstOnly(onlee, secondd){
+ return onlee && !secondd;
+ }
+
+ function secondOnly(firstt, onlee){
+   return !firstt && onlee
+ }
+
+function neither(e, o){
+  return !e && !o;
+}
+
+function itsComplicated(one, two, three){
+ return !one || two && three
+}
 
 
 /********************************************************************************************
